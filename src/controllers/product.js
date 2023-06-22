@@ -71,7 +71,7 @@ const insertProduct = async (req, res) => {
     const arr = getData();
     //console.log(arr.length);
     for (let i = 0; i < arr.length; i++) {
-      (type = [arr[i].type]),
+      (type = arr[i].type),
         (soldout = arr[i].soldout),
         (title = arr[i].title),
         (imgcard = arr[i].imgcard),
